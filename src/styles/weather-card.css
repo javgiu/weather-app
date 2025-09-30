@@ -97,3 +97,13 @@
     font-weight: 700;
     color: #333;
 }
+
+@media(max-width: 497px) {
+    .card-description {
+        grid-template-columns: 1fr;
+    }
+
+    .card-container:last-child {
+        max-width: 100%;
+    }
+}

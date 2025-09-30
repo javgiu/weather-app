@@ -1,7 +1,10 @@
 body {
     font-family: 'Work sans', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h1,
@@ -47,6 +50,12 @@ header h1 {
     padding: 2rem;
     align-items: center;
     flex: 1;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 1rem;
 }
 
 @media (min-width: 768px) {
