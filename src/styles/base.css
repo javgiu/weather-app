@@ -52,6 +52,10 @@ header h1 {
     flex: 1;
 }
 
+main {
+    flex: 1;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
