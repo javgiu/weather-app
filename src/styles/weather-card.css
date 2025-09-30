@@ -1,0 +1,99 @@
+.weather-card {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card-header {
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.card-header .unit-toggle {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.card-header .unit-btn {
+    padding: 0.4rem 0.8rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.card-header .unit-btn.active {
+    background: white;
+    color: #667eea;
+    border-color: white;
+}
+
+.card-header .unit-btn:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.card-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-header h3 {
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+
+.card-header p {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.card-description {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.card-container {
+    background: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card-container:last-child {
+    grid-column: 1 / -1;
+    max-width: 250px;
+    width: 100%;
+    justify-self: center;
+}
+
+.card-container h3 {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.card-container p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}

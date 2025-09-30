@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
+      <div class="header-container">
+        <h1>My Weather</h1>
+        <form id="search-form">
+          <input
+            id="location-input"
+            name="location"
+            type="text"
+            placeholder="Enter a location..."
+            required
+          />
+          <button id="search-btn" type="submit">Search</button>
+        </form>
+      </div>
     </header>
     <main>
-        <p>Ready to go! Just check the console</p>
+      <div id="weather-display"></div>
     </main>
-    <footer>
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>

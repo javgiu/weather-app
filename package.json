@@ -12,7 +12,6 @@
   },
   "license": "ISC",
   "author": "Javier Picallo Ortega <javypicallo@gmail.com> (https://github.com/javgiu)",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
